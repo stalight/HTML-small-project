@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--This is so that I could link to the other folders easily-->
+<html lang="en">
+    <!--This shows that the html is set to english language-->
+    <head>
+        <title>Project 2 - Flip A Coin!</title>
+        <!--Title of the Webpage-->
+        <link href="css/Project 2.css" type="text/css" rel="stylesheet">
+        <!--Links to the stylesheet-->
+        <link href="pic/1612527352.ico" rel="icon"> 
+        <!--Links to the favicon-->
+        <script src="js/project 2.js" defer></script>
+        <!--Links to the javascript-->
+        <meta charset="utf-8">
+        <!--This code makes sure that the code I type could be read by a machine-->
+    </head>
+    <body>
+        <h1>Project 2 - Flip a Coin!</h1>
+        <div id="instruction">
+            Choose a side for your coin, this is the side you will be betting on<br>
+            for winning. You are able to change your side each round, the computer will<br>
+            choose the latter. The first to reach a score of 10 wins the game!<br>
+            ------------------------------------------------------------------------------<br>
+            The restart button is there if you ever want to restart the game<br>
+             or replay the game after the game is done!
+
+        </div>
+        <!--Instruction for user on how to play the game-->
+        <div id="playfield">
+            <div id="scoreboard">
+            <!--Records the score of how many time each side wins-->
+            <pre><label>Player Score: <text id="playerscore">0</text>            Compuer Score: <text id="computerscore">0</text></label></pre>
+            </div>
+            <div id="winner"></div>
+            <!--Where the winner will be displayed-->
+            <div id="coin">
+                <img src="pic/head.png" id="img">
+                <!--Where the coin will be flipped and shown-->
+
+            </div>
+            <div id="Selected">
+                <pre><label>You Have Chosen: <text id="playerchoice"></text>            The Computer Has Chosen: <text id="computerchoice"></text></label></pre>
+                <!--Where the computer and player choice will be displayed-->
+            </div>
+            <pre><input type="button" onclick="Head()" value="Head">      <input type="button" onclick="Tail()" value="Tails"></pre><br>
+            <!--Button for the player to choose their choice--><br>
+            <input type="button" onclick="Flip()" value="Flip the coin!">
+            <!--user will click this button to flip the coin-->
+        </div>
+        <input type="button" onclick="reset()" value="Restart">
+        <div id="hyperlinks">
+            <pre><a id="hype" href="Index Page.html">Home Page</a> <b>|</b> <a id="hype" href="Project 1.html">Project 1 - Guess a Number!</a> <b>|</b> <a id="hype" href="Project 2.html">Project 2 - Flip a Coin!</a> <b>|</b> <a id="hype" href="Project 3.html">Project 3 - Tic Tac Toe!</a> <b>|</b> <a id="hype" href="Reflection.html">Reflection</a></pre>
+            <!--Hyperlinks for my other webpage-->
+            </div>
+    </body>
+</html>

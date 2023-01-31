@@ -1,0 +1,105 @@
+html{
+    text-align: center;
+    /*This places the text in the center*/
+}
+body{
+    background: rgb(2,0,36);
+    /*Sets the background of the body*/
+    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #89a6ec, #78b2f3, #68bdf6, #51ccfb, #40dbfb, #44e8f5, #5cf4eb);
+    /*Changes the background with linear gradient*/
+    color:black;
+    /*Changes the text color*/
+}
+#button1{
+    width: 5cm;
+    height: 5cm;
+    border-width: 0.1cm;
+    border-color: black;
+    /*Sets the size, border, border color of the button*/
+}#button2{
+    width: 5cm;
+    height: 5cm;
+    border-width: 0.1cm;
+    border-color: black;
+    /*Sets the size, border, border color of the button*/
+}#button3{
+    width: 5cm;
+    height: 5cm;
+    border-width: 0.1cm;
+    border-color: black;
+    /*Sets the size, border, border color of the button*/
+}#button4{
+    width: 5cm;
+    height: 5cm;
+    border-width: 0.1cm;
+    border-color: black;
+    /*Sets the size, border, border color of the button*/
+}#button5{
+    width: 5cm;
+    height: 5cm;
+    border-width: 0.1cm;
+    border-color: black;
+    /*Sets the size, border, border color of the button*/
+}
+#button6{
+    width: 5cm;
+    height: 5cm;
+    border-width: 0.1cm;
+    border-color: black;
+    /*Sets the size, border, border color of the button*/
+}#button7{
+    width: 5cm;
+    height: 5cm;
+    border-width: 0.1cm;
+    border-color: black;
+    /*Sets the size, border, border color of the button*/
+}#button8{
+    width: 5cm;
+    height: 5cm;
+    border-width: 0.1cm;
+    border-color: black;
+    /*Sets the size, border, border color of the button*/
+}#button9{
+    width: 5cm;
+    height: 5cm;
+    border-width: 0.1cm;
+    border-color: black;
+    /*Sets the size, border, border color of the button*/
+}
+.place{
+display: inline-block;
+/*Gives the class this property so that the div can be placed next to each other*/
+  width: 5cm;
+  height: 5cm;
+/*Sets the size of the box that the div uses.*/
+}
+#result{
+    visibility: hidden;
+    /*Hides the div*/
+    margin: 10px auto 10px auto;
+    /*Aligns the picture to center*/
+    border: 2px solid black;
+    /*Creates a border*/
+    border-radius: 2cm;
+    /*Creates Border radius around the edges*/
+    color:black;
+    background-color: rgb(255, 255, 255);
+    /*White Background*/
+    width:10cm;
+    height:1cm;
+    /*Sets the size of the divider*/
+    /*Sets the size, border, border color of the button*/
+}
+#hyperlinks{
+    margin: 10px auto 10px auto;
+    /*Aligns the picture to center*/
+    font-size: 20px;
+    /*font size*/
+    color: black;
+    /*Text Color*/
+    width: 35cm;
+    /*Divider widths*/
+    background-color: white;
+    /*Background Color*/
+    border: 2px solid black;
+}

@@ -1,0 +1,130 @@
+html{
+    text-align: center;
+    /*This places the text in the center*/
+}
+body{
+    background: rgb(2,0,36);
+    /*Sets the background of the body*/
+    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #89a6ec, #78b2f3, #68bdf6, #51ccfb, #40dbfb, #44e8f5, #5cf4eb);
+    /*Changes the background with linear gradient*/
+    color:black;
+    /*Changes the text color*/
+}
+#title{
+    margin: 10px auto 10px auto;
+    /*Aligns the picture to center*/
+    border: 2px solid black;
+    /*Creates a border*/
+    border-radius: 2cm;
+    /*Creates Border radius around the edges*/
+    padding: 20px;
+    /*Adds padding so the text doesn't stick to the border*/
+    color:rgb(255, 255, 255);
+    background-color: rgb(94, 122, 182);
+    /*background and text color*/
+    width:20cm;
+    /*Sets the size of the divider*/
+    /*Sets the size, border, border color of the button*/
+    font-size: 25px
+    /*Font size*/
+}
+#BODY{
+    margin: 10px auto 10px auto;
+    /*Aligns the picture to center*/
+    border: 2px solid black;
+    /*Creates a border*/
+    border-radius: 1cm;
+    /*Creates Border radius around the edges*/
+    padding: 20px;
+    /*Adds padding so the text doesn't stick to the border*/
+    color:black;
+    background-color: rgb(152, 250, 237);
+    /*Background Color*/
+    width:35cm;
+    /*Sets the size of the divider*/
+    /*Sets the size, border, border color of the button*/
+    font-size: 18px
+}
+#intro{
+    margin: 10px auto 10px auto;
+    /*Aligns the picture to center*/
+    padding: 20px;
+    /*Adds padding so the text doesn't stick to the border*/
+    border-radius: 1cm;
+    /*Creates Border radius around the edges*/
+    color:black;
+    /*Text Color is Black*/
+    background-color: rgb(255, 255, 255);
+    /*White Background*/
+    font-size: 20px;
+    /*font size*/
+    text-align: left;
+    /*make text align left*/
+    width:30cm;
+    /*Sets the size of the divider*/
+    /*Sets the size, border, border color of the button*/
+}
+#pics{
+    width:20cm;
+    /*Sets the image width*/
+}
+#Proposal{
+    margin: 10px auto 10px auto;
+    /*Aligns the picture to center*/
+    padding: 20px;
+    /*Adds padding so the text doesn't stick to the border*/
+    border-radius: 1cm;
+    border: 2px solid black;
+    /*Sets the border of the div*/
+    color:black;
+    /*Text Color is Black*/
+    background-color: rgb(255, 255, 255);
+    /*White Background*/
+    font-size: 18x;
+    /*font size*/
+    text-align: middle;
+    /*make text align middle*/
+}
+#project{
+    margin: 10px auto 10px auto;
+    /*Aligns the picture to center*/
+    padding: 20px;
+    /*Adds padding so the text doesn't stick to the border*/
+    border-radius: 1cm;
+    /*Creates Border radius around the edges*/
+    color:black;
+    /*Text Color is Black*/
+    background-color: rgb(255, 255, 255);
+    /*White Background*/
+    font-size: 20px;
+    /*font size*/
+    text-align: left;
+    /*make text align left*/
+    width:30cm;
+    /*Sets the size of the divider*/
+    /*Sets the size, border, border color of the button*/
+}
+#highlight{
+    margin: 10px auto 10px auto;
+    /*Aligns the text to center*/
+    background-color: rgb(212, 255, 95);
+    /*White Background*/
+    width: 15cm;
+    /*size of the div*/
+}
+#hyperlinks{
+    margin: 10px auto 10px auto;
+    /*Aligns the picture to center*/
+    font-size: 20px;
+    /*font size*/
+    color: black;
+    /*Text Color*/
+    width: 35cm;
+    /*Divider widths*/
+    background-color: white;
+    /*Background Color*/
+}
+#hype{
+    color: black;
+    /*Hyperlink font color*/
+}

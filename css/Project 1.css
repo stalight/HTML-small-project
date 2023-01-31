@@ -1,0 +1,79 @@
+html{
+    text-align: center;
+    /*This places the text in the center*/
+}
+body{
+    background: rgb(2,0,36);
+    /*Sets the background of the body*/
+    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #89a6ec, #78b2f3, #68bdf6, #51ccfb, #40dbfb, #44e8f5, #5cf4eb);
+    /*Changes the background with linear gradient*/
+    color:black;
+    /*Changes the text color*/
+}
+#difficulty{
+    margin: 10px auto 10px auto;
+    /*Aligns the picture to center*/
+    border: 2px solid black;
+    /*Creates a border*/
+    border-radius: 2cm;
+    /*Creates Border radius around the edges*/
+    color:black;
+    background-color: rgb(238, 253, 252);
+    /*White Background*/
+    width:15cm;
+    height:18.2cm;
+    /*Sets the size of the divider*/
+    /*Sets the size, border, border color of the button*/
+}
+#difficulty2{
+    text-align: left;
+    /*This places the text in the left*/
+    padding: 1cm;
+    /*Padding is there so that the text doesn't stick to the border but instead has a spacing from the border of the div*/
+    font-size: 20px;
+}
+
+#playfield{
+    margin: 10px auto 10px auto;
+    /*Aligns the picture to center*/
+    border: 2px solid black;
+    /*Creates a border*/
+    border-radius: 0.5cm;
+    /*Creates Border radius around the edges*/
+    color:black;
+    background-color: rgb(255, 255, 255);
+    /*White Background*/
+    width:10cm;
+    /*Sets the size of the divider*/
+    font-size: larger;
+    /*Makes the font size larger*/
+    visibility: hidden;
+    /*Hides the style when page loads, will load after
+    a button is pressed (from javascript)*/
+}
+#easy{
+    color: rgb(17, 223, 17);
+    /*Sets the color for easy*/
+}
+#medium{
+    color: gold;
+    /*Sets the color for medium*/
+}
+
+#hard{
+    color: red;
+    /*Sets the color for hard*/
+}
+#hyperlinks{
+    margin: 10px auto 10px auto;
+    /*Aligns the picture to center*/
+    font-size: 20px;
+    /*font size*/
+    color: black;
+    /*Text Color*/
+    width: 35cm;
+    /*Divider widths*/
+    background-color: white;
+    /*Background Color*/
+    border: 2px solid black;
+}

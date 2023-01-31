@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--This is so that I could link to the other folders easily-->
+<html lang="en">
+    <!--This shows that the html is set to english language-->
+    <head>
+        <title>Project 1 - Guess The Number</title>
+        <!--Title of the Webpage-->
+        <link href="css/Project 1.css" type="text/css" rel="stylesheet">
+        <!--Links to the stylesheet-->
+        <link href="pic/1612527352.ico" rel="icon"> 
+        <!--Links to the favicon-->
+        <script src="js/project1.js" defer></script>
+        <!--Links to the javascript-->
+        <meta charset="utf-8">
+        <!--This code makes sure that the code I type could be read by a machine-->
+    </head>
+    <body>
+        <h1>Project 1 - Guess the Number</h1>
+        <div id="instruction">
+            Choose a difficulty from the radio buttons below, each difficulty has a fixed range and guess chance,<br>
+            however you are able to create your own custom difficulties. The computer will alert you if you have any<br>
+            input errors that you have to adjust. In order to replay, you'd have to click the restart button after<br>
+            you start the game.
+        </div>
+        <div id="difficulty">
+            <h2>Choose Your Difficulty</h2>
+            <div id="difficulty2">
+            <input type="radio" id="Easy" name="difficulties" value="Easy">
+            <label for="Easy" id="easy">Easy</label><br>
+            <p><pre>   Number Range: 0~25<br>   Guess Chances: 5</pre></p>
+                <!--Diifculty Easy, and states the information about this difficulty-->
+            <input type="radio" id="Medium" name="difficulties" value="Medium">
+            <label for="Medium" id="medium">Medium</label><br>
+            <p><pre>   Number Range: 0~50<br>   Guess Chances: 5</pre></p>
+                <!--Diifculty Medium, and states the information about this difficulty-->
+            <input type="radio" id="Hard" name="difficulties" value="Hard">
+            <label for="Hard" id="hard">Hard</label><br>
+            <p><pre>   Number Range: 0~100<br>   Guess Chances: 10</pre></p>
+                <!--Diifculty Hard, and states the information about this difficulty-->
+            <input type="radio" id="Custom" name="difficulties" value="Custom">
+            <label for="Custom">Custom</label><br>
+            <pre>   <label>Starting Range: <input type="number" id="Starting"></label><br></pre>
+            <pre>   <label>Ending Range: <input type="number" id="Ending"></label></pre>
+            <pre>   <label>Guess Chance: <input type="number" id="GuessChance"></label></pre>
+            </div>
+            <!--User input their own difficulties here.-->
+            <!--They are all radio buttons above so the button will only function if they pick a difficulty-->
+            <input type="button" onclick="difficulty()" value="Submit">
+        </div>
+        <div id="chance"></div>
+        <div id="playfield"><br>
+            <div id="range"></div>
+            <div id="playerguess">
+                 <!--place for user to guess the number-->
+            <br>
+            <label>Your Guess: <input type="number" id="Guess"></label>
+            <input type="button" onclick="Guess()" value="Submit"><br>
+            <!--for the user to type their guess and submits it-->
+            <br><div id="HOW"><br></div><br>
+            <!--for computer to hint if you are close to the number-->
+            <div id="GuessNumber"></div>
+            <!--Tells the user how many time they've guessed-->
+            <input type="button" onclick="reset()" value="Restart"><br><br>
+            </div>
+        </div>
+        <div id="hyperlinks">
+            <pre><a id="hype" href="Index Page.html">Home Page</a> <b>|</b> <a id="hype" href="Project 1.html">Project 1 - Guess a Number!</a> <b>|</b> <a id="hype" href="Project 2.html">Project 2 - Flip a Coin!</a> <b>|</b> <a id="hype" href="Project 3.html">Project 3 - Tic Tac Toe!</a> <b>|</b> <a id="hype" href="Reflection.html">Reflection</a></pre>
+            <!--Hyperlinks for my other webpage-->
+            </div>
+    </body>
+</html>
